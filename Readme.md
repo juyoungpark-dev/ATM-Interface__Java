@@ -5,6 +5,7 @@
 #### Date: 1/18/2021
 #### Start Time: 9:15pm
 #### End Time: 10:25pm
+#### Hours: 1hour
 
 ## What I have learned today
 * MD5 Hashing method in Java
