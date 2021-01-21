@@ -33,3 +33,27 @@ Java uses **"MessageDigest"** class for the hashing functionalities.
 * How to validate a given PIN(String) with a stored hash(byte):
   > MessageDigest md = MessageDigest.getInstance("MD5");                      
   > return MessageDigest.isEqual(md.digest(pin.getBytes()), this.pinHash)  //'this' -> User object
+
+
+# Day4 of #100DaysOfCode
+## Project: ATM Interface with Java
+#### Goal: to get familiar with object-oriented programming using Java and learn new things of Java
+#### Date: 1/20/2021
+#### Start Time: 5pm
+#### End Time: 7:30pm
+#### Hours: 2.5hr
+
+## What I have learened today
+* String.format("%s : $%.02f : %s", accountID, balance, memo);
+	> this is just like "printf" that is used for formatting.
+	> "%.02f" : (reminding) floating point number that has 2 digits of precision after the decimal point.
+* java.util.Date.toString() : when you print out Date type value as a String.
+* Single entry & exit point rule : 
+	> This is something I've been emphasized from my first C professor.
+	> I even had to resubmit an assignment because of this.
+	> But, ever since completing the first semester, I have seen many people ignore this srule, and I couldn't understand why on earth I should keep this rule.
+	> So, I emailed my first professor to ask about this.
+	> He said, this is very "touchy" subject and there are arguments for both viewpoints.
+	> The main this is that you evaluate it every time you want to violate the principle and figure if it will present spaghetti code over the long term. If the function is very short and will never have to do anything super complicated, it might be better to violate the principle and exit early.
+	> In my conclusion, it's always case-by-case.
+	> Also, it was a good idea to talk to my favorite old professor! :D

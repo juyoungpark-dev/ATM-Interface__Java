@@ -15,6 +15,11 @@ public class Bank {
     }
 
     // methods:
+
+    public String getName() {
+        return this.name;
+    }
+
     public String getNewUserUUID() {
         String uuid;
         int len = 6;
@@ -97,12 +102,12 @@ public class Bank {
      * 
      * @param userID typed userID
      * @param pin    typed pin for the userID
-     * @return       the user if exists, or null
+     * @return the user if exists, or null
      */
     public User userLogin(String userID, String pin) {
 
         for (User u : this.users) {
-            if(userID.equals(u.getUUID()) && u.validatePin(pin)){ 
+            if (userID.equals(u.getUUID()) && u.validatePin(pin)) {
                 return u;
             }
         }
