@@ -59,4 +59,24 @@ Java uses **"MessageDigest"** class for the hashing functionalities.
 	> The main thing is that you evaluate it every time you want to violate the principle and figure if it will present spaghetti code over the long term. If the function is very short and will never have to do anything super complicated, it might be better to violate the principle and exit early.      
 	>                    
 	> In my conclusion, it's always case-by-case.             
-	> Also, it was a good idea to talk to my favorite old professor! :D             
+	> Also, it was a good idea to talk to my favorite old professor! :D            
+
+
+# Day5 of #100DaysOFCode
+## Project: ATM Interface in Java (Re-code)
+#### Goal: improve skills of planning, designing, implementing..
+#### Date: 1/21/2021
+#### Start Time: 4:30
+#### End Time: 8:30
+#### Hours: 3hr
+
+## What I have learned today
+* reminded and applied software development processes while recoding the ATM interface app.
+	> imagining how completed application will look like              
+	> gathering requirements                         
+	> designing                       
+	> breaking into small chunks                        
+	> immplementing!        
+
+## What I need to improve
+* spend more time to plan
